@@ -855,7 +855,7 @@ async def admin_help(message: Message):
         "<code>/tasks</code> — список активных заданий\n"
         "<code>/stats</code> — краткая статистика"
         "<code>/broadcast</code> — рассылка пользователям"
-    )
+      )
     await message.answer(text)
 
 
